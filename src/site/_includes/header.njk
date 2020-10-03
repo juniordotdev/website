@@ -1,12 +1,16 @@
 <header>
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏆</text></svg>">
+
   <ul class="nav">
     <li>
-      <a href="/">home<small>where the heart is</small></a>
+      <a href="/">home<small>where to start</small></a>
     </li>
     <li>
-      <a href="/about">about<small>all about this</small></a>
+      <a href="/about">about<small>who we are</small></a>
     </li>
   </ul>
   <h1>{{ title }}</h1>
   {%- if subtitle %}<p class="subtitle">{{ subtitle | safe }}</p>{% endif %}
+
 </header>
