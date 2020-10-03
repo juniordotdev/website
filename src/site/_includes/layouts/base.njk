@@ -17,9 +17,10 @@
     {% set js %}
       {% include "js/core.js" %}
       {% include "js/hello.js" %}
+      {% include "js/terminal.js" %}
     {% endset %}
     <script>{{ js | jsmin | safe }}</script>
-
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/316871/termynal.min.js"></script>
   </body>
 </html>
 
