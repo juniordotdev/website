@@ -6,7 +6,8 @@
 
 [dev]
   command = "npm run start"
-
+  
+[plugins] package = "@netlify/plugin-functions-install-core"
 
 [[redirects]]
   from = "/api/*"
