@@ -1,0 +1,5 @@
+{
+  "layout": "layouts/workshop.md",
+  "tags": "workshop",
+  "templateEngineOverride": "njk,md"
+}

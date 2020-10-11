@@ -14,18 +14,10 @@ Junior.dev offers intensive, four-to-six week workshops for learning new skillsâ
 
 We're in the process of putting together the curriculum for our first series of workshops. Here are some of the topics we're kicking around:
 
-- Architecting for the cloud with Amazon Web Services
-- Building your brand as a software engineer
-- Choosing your JAMStack solution
-- Front-end architecture
-
-## Recent Posts
-
 <ul class="listing">
-{%- for page in collections.post -%}
+{%- for page in collections.workshop -%}
   <li>
-    <a href="{{ page.url }}">{{ page.data.title }}</a> -
-    <time datetime="{{ page.date }}">{{ page.date | dateDisplay("LLLL d, y") }}</time>
+    <a href="{{ page.url }}">{{ page.data.title }}</a>
   </li>
 {%- endfor -%}
 </ul>
