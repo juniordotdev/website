@@ -1,12 +1,12 @@
 ---
-title: About JuniorDev
+title: About Junior.dev
 layout: layouts/base.njk
 subtitle: Why we chose to start JuniorDev
 ---
 
 ## Our Background
 
-Marketing, Education and Engineering background with a community focus 
+Marketing, education, and engineering background with a community focus.
 
 ## The Education Gap
 
@@ -14,4 +14,4 @@ Gaps from graduation, bootcamps and internships leave developers with the same t
 
 ## The Solution
 
-Seasoned practicioners helping fill the gap on your own timeline and with a supportive group
+Seasoned practicioners helping fill the gap on your own timeline and with a supportive group.
